@@ -2,10 +2,10 @@ span.index1-chosen {
     transform: translateY(0px);
   }
 span.index2-chosen {
-    transform: translateY(42px);
+    transform: translateY(50px);
   }
 span.index3-chosen {
-    transform: translateY(84px);
+    transform: translateY(100px);
   }
 
   @media only screen and (max-width: 768px) {

@@ -13,10 +13,10 @@ const ExperienceContent = (props) => {
           : { display: "none" }
       }
     >
-      <h4 className='text-white text-[22px] font-medium'>{data.role}</h4>
-      <h5 className='text-[13px] tracking-wider mb-[30px] text-green-500'>{data.time}</h5>
+      <h4 className='text-white sm:text-[30px] text-[25px] font-medium'>{data.role}</h4>
+      <h5 className='text-[15px] tracking-wider mb-[30px] text-green-500'>{data.time}</h5>
       {data.description.map(detail => (
-        <p className="text-[16px] mb-[10px] text-dimWhite">{detail}</p>
+        <p className="sm:text-[20px] text-[18px] mb-[10px] text-dimWhite">{detail}</p>
       ))}
     </div>
   )

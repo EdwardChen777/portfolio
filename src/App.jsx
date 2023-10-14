@@ -8,7 +8,7 @@ const App = () => {
       <Navbar className=""/>
       <Home/>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pt-[100px] absolute -z-10`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} pt-[100px]`}>
         <div className={`${styles.boxWidth}`}>
           <Experience data={jobs} />
           <Project />

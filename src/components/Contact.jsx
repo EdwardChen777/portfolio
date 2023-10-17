@@ -14,7 +14,7 @@ const Contact = () => {
           <a href='https://www.linkedin.com/in/edwardchen777/' className=' mr-[10px]'>
             <FaLinkedin className='text-[30px] text-white hover:text-green-500' />
           </a>
-          <a href='' className='ml-[10px]'>
+          <a href='https://github.com/EdwardChen777' className='ml-[10px]'>
             <FaGithub className='text-[30px] text-white hover:text-green-500'/>
           </a>
         </div>

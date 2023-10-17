@@ -16,6 +16,7 @@ module.exports = {
         focusBG: "#3D3C5C",
         hoverGreen: "#3D955D",
         dimExp: "#8892b0",
+        testCard: "#2B2B42"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

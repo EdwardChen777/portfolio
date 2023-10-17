@@ -1,31 +1,17 @@
 // import WorkIm from '../public/workImg.jpeg'
 // import WorkIm from '../assets/workImg.jpeg'
 // import RealEst from '../public/realestate.jpg'
-import Insider from '../imgs/insider.png'
+import Insider from '../imgs/insdr.png'
 import Healome from '../imgs/healome.png'
-import Openup from '../imgs/open-up.png'
+import FirstTee from '../imgs/firsttee.png'
 
 export const data=[
     {
         id:1,
-        name:"NutriTrack",
-        description: "A web application for tracking nutrition intake",
-        image:Openup,
-        github:"",
-        live:"",
-        youtube:"",
-        skills: [
-            "TypeScript",
-            "Node",
-            "Express",
-        ]
-    },
-    {
-        id:2,
         name:"First-Tee Pittsburgh",
-        description: "A web application to connect coaches and program participants",
-        image:Openup,
-        github:"",
+        description: "A web application for First-Tee coaches to send messages to program participants via both phone and email.",
+        image:FirstTee,
+        github:"https://github.com/EdwardChen777/First_Tee_Notifications_System",
         live:"",
         youtube:"",
         skills: [
@@ -36,13 +22,13 @@ export const data=[
         ]
     },
     {
-        id:3,
+        id:2,
         name:"iNSDR",
-        description: "A mobile app that tracks insider trading",
+        description: "A mobile application that provides insider trading information for the public.",
         image:Insider,
         github:"https://github.com/EdwardChen777/Team15-App-V2",
         live:"",
-        youtube:"https://drive.google.com/file/d/1X2gzN62V_xAJaj-IFhwgJ0ybcm4XxOcO/view?usp=sharing",
+        youtube:"",
         skills: [
             "Swift",
             "SwiftUI",
@@ -52,13 +38,13 @@ export const data=[
         ]
     },
     {
-        id:4,
+        id:3,
         name:"Healome Web App",
-        description: "An full-stack app that stores user information and provide subscription based services",
+        description: "A full-stack application that stores user information and provide subscription based services.",
         image:Healome,
         github:"https://github.com/EdwardChen777/HealomeWebApp",
         live:"",
-        youtube:"",
+        youtube:"https://drive.google.com/file/d/1X2gzN62V_xAJaj-IFhwgJ0ybcm4XxOcO/view?usp=sharing",
         skills: [
             "Ruby on Rails",
             "Cognito",
@@ -72,6 +58,7 @@ export const jobs = [
     {
         id: 1,
         company: "Healome",
+        companyDescription: "Tracks biomarkers and provides healthy routines",
         role: "Software Engineer Intern",
         time: "Jun 2022 - Aug 2022",
         description: [
@@ -83,6 +70,7 @@ export const jobs = [
     {
         id: 2,
         company: "re:Bloom",
+        companyDescription: "Help local minority owned business increase online presence",
         role: "Project Manager",
         time: "Sep 2021 - Aug 2022",
         description: [
@@ -93,6 +81,7 @@ export const jobs = [
     {
         id: 3,
         company: "Sustainible",
+        companyDescription: "Analytics for small businesses to achieve sustainable growth",
         role: "Software Developer Intern",
         time: "Jan 2022 - Apr 2022",
         description: [

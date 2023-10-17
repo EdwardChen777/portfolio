@@ -36,7 +36,7 @@ const Home = () => {
                         Hi, I am Edward!
                         {/* <br className="sm:block" />I am a <span ref={el}></span> */}
                         <br />
-                        <span className=""> I am a Software Engineer</span>
+                        <span className=""> I am a <span className='text-green-500'>Software Engineer</span></span>
                     </h2>
                 </div>
                 <p className={`${styles.paragraph} max-w-[600px] mt-5 font-opensans `}>
